@@ -1,4 +1,17 @@
-<form action="/answer" method="get">
-  <input type="text" name="question" value="<%= params[:question] %>" placeholder="What is your question?">
-  <input type="submit">
-</form>
+
+
+<div class="container -sm">
+  <h1>Stupid coaching</h1>
+
+    <form class="row" action="/answer" method="get">
+    <p>Ask your coach anyting</p>
+      <div class="col-5">
+        <input type="text" class="form-control me-2" name="question" value="<%= params[:question] %>" placeholder="What is your question?">
+       </div>
+      <div class="col -1">
+        <button type="submit" class="btn btn-primary">Primary</button>
+      </div>
+    </form>
+</div>
+
+</div>
