@@ -1,2 +1,13 @@
-<h1><%= @answer %></h1>
+<div class="alert alert-light" role="alert">
+<h2><%= params[:question] %></h2>
+<p>- You</p>
+</div>
+
+
+<div class="alert alert-warning" role="alert">
+<h2 ><%= @answer %></h2>
+<p>- Coach</p>
+</div>
+
+
 <%= link_to "Ask another question", ask_path %>
